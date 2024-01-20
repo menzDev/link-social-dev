@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%)
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: var(--Off-Black);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    padding: 0 15px;
+}
+.contenedor{
+    width: 364px;
+    height: 582px;
+    margin-top: 85px;
+    background-color:var(--Dark-Grey) ;
+    border-radius: 20px;
+}
+.detalles{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.detalles img{
+    border-radius: 80px;
+    width: 100px;
+    height: 95px;
+    margin-top: 15px;
+}
+.detalles h2{
+ color: var(--White);
+ margin-top: 20px;
+}
+.detalles h4{
+    margin-top: 10px;
+    color: var(--Green);
+}
+.detalles p{
+    margin-top: 15px;
+    color: var(--White);
+}
+.perfiles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    width: 295px;
+    height: 47px;
+    border-radius: 15px;
+    background-color: var(--Grey);
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+}
+a p{
+    padding-top: 10px;
+    color: var(--White);
+}
+.uno{
+    margin-top:15px;
+    transition: background-color 0.5s;   
+}
+.dos{
+    margin-top:10px;
+    transition: background-color 0.5s;
+}
+.tres{
+    margin-top:10px;
+    transition: background-color 0.5s;   
+}
+.cuatro{
+    margin-top:10px;
+    transition: background-color 0.5s;   
+}
+.cinco{
+    margin-top:10px;
+    transition: background-color 0.5s;
+}
+.uno:hover{
+    background-color: black;
+    
+}
+.dos:hover{
+    background-color: blueviolet;
+    transition: background-color 0.5s;
+}
+.tres:hover{
+    background-color: blue;
+    transition: background-color 0.5s;
+}
+.cuatro:hover{
+    background-color: aqua;
+    transition: background-color 0.5s;
+}
+.cinco:hover{
+    background-color: orange;
+    transition: background-color 0.5s;
+}
